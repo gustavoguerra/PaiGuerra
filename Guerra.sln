@@ -3,15 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Domain", "Guerra.Domain\Guerra.Domain.csproj", "{4A1A1719-2FB7-4646-A9CB-2645BD643BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guerra.Domain", "Guerra.Domain\Guerra.Domain.csproj", "{4A1A1719-2FB7-4646-A9CB-2645BD643BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Services", "Guerra.Services\Guerra.Services.csproj", "{81FA164C-1407-476A-8CB1-3FC7AFD3EA3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guerra.Services", "Guerra.Services\Guerra.Services.csproj", "{81FA164C-1407-476A-8CB1-3FC7AFD3EA3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Business", "Guerra.Business\Guerra.Business.csproj", "{D6D5D8CE-6B9E-4EE5-9552-B3375998E452}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guerra.Business", "Guerra.Business\Guerra.Business.csproj", "{D6D5D8CE-6B9E-4EE5-9552-B3375998E452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Repository", "Guerra.Repository\Guerra.Repository.csproj", "{D6623914-C2FF-4CEE-990F-562232D8F4E3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Web", "Guerra.Web\Guerra.Web.csproj", "{9BDEA9DD-308A-4F01-A882-414092A8AFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guerra.Repository", "Guerra.Repository\Guerra.Repository.csproj", "{D6623914-C2FF-4CEE-990F-562232D8F4E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Aplication", "1 - Aplication", "{4FC29C37-C0B0-48DB-AC01-034DA86F21B9}"
 EndProject
@@ -22,6 +20,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{63562C20-73EB-454E-989B-14535C90BC27}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Repository", "5 - Repository", "{45555ADF-5918-401B-9C8F-5AE0944E2F8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guerra.Application", "Guerra.Application\Guerra.Application.csproj", "{E9C59E21-1984-4101-B732-828A30529951}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,18 +81,18 @@ Global
 		{D6623914-C2FF-4CEE-990F-562232D8F4E3}.Release|x64.Build.0 = Release|Any CPU
 		{D6623914-C2FF-4CEE-990F-562232D8F4E3}.Release|x86.ActiveCfg = Release|Any CPU
 		{D6623914-C2FF-4CEE-990F-562232D8F4E3}.Release|x86.Build.0 = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|x64.Build.0 = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Debug|x86.Build.0 = Debug|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|x64.ActiveCfg = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|x64.Build.0 = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|x86.ActiveCfg = Release|Any CPU
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3}.Release|x86.Build.0 = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|x64.Build.0 = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Debug|x86.Build.0 = Debug|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|x64.ActiveCfg = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|x64.Build.0 = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|x86.ActiveCfg = Release|Any CPU
+		{E9C59E21-1984-4101-B732-828A30529951}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,7 +102,7 @@ Global
 		{81FA164C-1407-476A-8CB1-3FC7AFD3EA3D} = {FD1DC377-4B93-472D-98AA-56943ECAA416}
 		{D6D5D8CE-6B9E-4EE5-9552-B3375998E452} = {256B507B-0DE6-4624-B1C5-9312CDAAB0D3}
 		{D6623914-C2FF-4CEE-990F-562232D8F4E3} = {45555ADF-5918-401B-9C8F-5AE0944E2F8C}
-		{9BDEA9DD-308A-4F01-A882-414092A8AFD3} = {4FC29C37-C0B0-48DB-AC01-034DA86F21B9}
+		{E9C59E21-1984-4101-B732-828A30529951} = {4FC29C37-C0B0-48DB-AC01-034DA86F21B9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C696AC2D-7801-40C5-876F-DA11BD46B081}

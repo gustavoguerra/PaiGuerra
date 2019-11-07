@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace Guerra.Web.Controllers
+namespace Guerra.Application.Controllers
 {
     [ApiController]
     [Route("[controller]")]

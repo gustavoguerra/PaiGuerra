@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>H:\PaiGuerra\Guerra.Web\Guerra.Web.xml</DocumentationFile>
+    <DocumentationFile>H:\PaiGuerra\Guerra.Application\Guerra.Application.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,11 +18,10 @@
     <PackageReference Include="Microsoft.Extensions.PlatformAbstractions" Version="1.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUi" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Guerra.Business\Guerra.Business.csproj" />
-    <ProjectReference Include="..\Guerra.Repository\Guerra.Repository.csproj" />
     <ProjectReference Include="..\Guerra.Services\Guerra.Services.csproj" />
   </ItemGroup>
 
